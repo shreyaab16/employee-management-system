@@ -1,16 +1,61 @@
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend Employee Management System built using React and Tailwind CSS. The application provides separate dashboards for administrators and employees, with task creation, assignment, and task status tracking.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Admin and Employee login
+- Admin dashboard
+- Employee dashboard
+- Create and assign tasks
+- Track task status
+- New, active, completed, and failed task counters
+- Task status updates
+- Responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
+- LocalStorage
 
-## Expanding the ESLint configuration
+## Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The system has two main user roles:
+
+### Admin
+
+- Manage employees
+- Create and assign tasks
+- View employee task statistics
+
+### Employee
+
+- View assigned tasks
+- Accept tasks
+- Mark tasks as completed or failed
+- Track task status
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Open the project folder in VS Code
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL shown in the terminal.
+
+## 📌 Note
+
+This repository contains the frontend version of the project. A backend/MERN version is currently under development.
